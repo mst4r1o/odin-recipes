@@ -1,0 +1,44 @@
+body {
+    font-family: Helvetica, "Times New Roman", sans-serif;
+    text-align: center;
+    font-size: 24px;
+}
+
+p {
+    margin-inline-start: 200px;
+    margin-inline-end: 200px;
+}
+
+h1 {
+    font-size: 50px;
+    background-color: rgb(135, 184, 226);
+}
+
+img {
+    height: 500px;
+    width: auto;
+}
+
+h2, p {
+    background-color: antiquewhite;
+}
+
+.ingredient {
+    background-color: rgb(214, 190, 190);
+}
+
+.steps {
+    background-color: rgb(177, 165, 165);
+}
+
+.list, ul{
+    text-align: left;
+    font-size: 20px;
+    margin-inline-start: 300px;
+    margin-inline-end: 300px;
+}
+
+ul {
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
