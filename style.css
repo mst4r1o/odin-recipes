@@ -7,19 +7,26 @@ body {
 p {
     margin-inline-start: 200px;
     margin-inline-end: 200px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 h1 {
     font-size: 50px;
-    background-color: rgb(135, 184, 226);
+    text-align: center;
+}
+
+h2 {
+    margin: 10px;
 }
 
 img {
+    text-align: left;
     height: 500px;
     width: auto;
 }
 
-h2, p {
+.desc {
     background-color: antiquewhite;
 }
 
@@ -41,4 +48,18 @@ h2, p {
 ul {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+}
+
+.foodlist {
+    padding-inline-start: 0px;
+    text-align: center;
+}
+
+.foodlist li{
+    display: inline-block;
+    width: auto;
+    height: auto;  
+    margin: 5px;
+    padding: 50px;
+    background-color: #cecececc;
 }
